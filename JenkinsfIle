@@ -15,9 +15,9 @@ pipeline {
             steps {
                 dir('backend') { // Navigate to backend directory
                     script {
-                        // Install dependencies (Maven/Gradle)
+                        // Install dependencies 
                         sh 'mvn clean install' // For Maven
-                        // sh './gradlew build' // For Gradle
+                    
                     }
                 }
             }
