@@ -1,6 +1,10 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'Maven 3.9.9' // Match the name in Jenkins Global Tool Configuration
+    }
+
     stages {
         // Stage 1: Checkout code from Git
         stage('Checkout') {
