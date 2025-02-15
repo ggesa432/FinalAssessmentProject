@@ -1,0 +1,9 @@
+{
+  "routes": {
+    "/": {},
+    "/create-employees": {},
+    "/details-employee/123": {},
+    "/employees": {},
+    "/update-employee/123": {}
+  }
+}
