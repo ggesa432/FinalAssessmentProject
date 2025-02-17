@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Employee } from '../employee';
 import { FormsModule } from '@angular/forms';
 import { EmployeeService } from '../employee.service';
-import { error } from 'node:console';
 import { Router } from '@angular/router';
 
 @Component({
