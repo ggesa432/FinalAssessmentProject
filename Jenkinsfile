@@ -35,7 +35,7 @@ pipeline {
                         // Install Node.js dependencies
                         sh 'npm install'
                         // Build Angular app
-                        sh 'npm run build -- --prod'
+                        sh 'npm run build -- --configuration production'
                         // Run unit tests
                         sh 'npm test'
                     }
